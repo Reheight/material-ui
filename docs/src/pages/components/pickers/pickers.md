@@ -9,6 +9,7 @@ components: TextField
 
 - On mobile, pickers are best suited for display in confirmation dialog.
 - For inline display, such as on a form, consider using compact controls such as segmented dropdown buttons.
+- **Important:** When you are using material-ui pickers ensure you are using **v1.x** version of **@date-io** adapters. You will receive a formatting error if you attempt to use any versions that are newer.
 
 ## @material-ui/pickers
 
